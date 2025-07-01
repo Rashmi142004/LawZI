@@ -6,10 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        display: ['Playfair Display', 'serif'],
-        body: ['Inter', 'sans-serif'],
+      colors: {
+        lawzi: "#7B3F00", // Your brown color
+        background: "#1E1E1E" // Optional dark background
       },
+      fontFamily: {
+        heading: ["'Poppins'", "sans-serif"]
+      }
     },
   },
   plugins: [],
